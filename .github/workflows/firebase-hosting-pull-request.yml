@@ -15,3 +15,6 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VUEJS_FIREBASE_4CAD5 }}'
           projectId: vuejs-firebase-4cad5
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
