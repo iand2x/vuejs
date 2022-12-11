@@ -30,9 +30,14 @@
           </p>
         </div>
         <div class="field">
-          <p class="control">
-            <button class="button is-success" value="Login">Login</button>
+          <p class="help is-small">
+            New to me?
+            <RouterLink to="register">Sign Up</RouterLink>
           </p>
+
+          <button class="button is-success is-pulled-right" value="Login">
+            Login
+          </button>
         </div>
       </form>
     </section>
@@ -70,5 +75,9 @@ export default {
 <style>
 .field {
   max-width: 400px;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
 }
 </style>

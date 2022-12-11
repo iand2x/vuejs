@@ -19,7 +19,11 @@
             placeholder="Password"
             v-model="register_form.password"
           />
-          <button class="button is-primary" value="Register">Submit</button>
+        </div>
+        <div class="field">
+          <button class="button is-primary is-pulled-right" value="Register">
+            Submit
+          </button>
         </div>
       </form>
     </section>

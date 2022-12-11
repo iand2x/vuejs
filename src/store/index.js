@@ -33,7 +33,7 @@ export default createStore({
             alert("Wrong password");
             break;
           default:
-            alert("Something is wrong with you haha");
+            alert("Something is wrong");
         }
 
         return;
